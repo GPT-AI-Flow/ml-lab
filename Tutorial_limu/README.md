@@ -1,3 +1,5 @@
+Date: 2022 年
+
 ## 资源
 
 - 课程主页: https://courses.d2l.ai/zh-v2
