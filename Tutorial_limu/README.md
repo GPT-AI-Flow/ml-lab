@@ -11,6 +11,10 @@ jupyter notebook
 
 # 安装插件，作为幻灯片展示
 pip install rise
+
+# 下载课程
+wget https://zh-v2.d2l.ai/d2l-zh.zip
+unzip d2l-zh.zip
 ```
 
 ## 资源
