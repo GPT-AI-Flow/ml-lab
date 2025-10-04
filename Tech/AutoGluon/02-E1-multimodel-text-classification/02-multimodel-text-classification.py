@@ -1,5 +1,4 @@
-# 连接 HuggingFace 有问题
-
+# @TOFIX: HuggingFace connection issue
 from autogluon.multimodal import MultiModalPredictor
 from autogluon.core.utils.loaders import load_pd
 
@@ -8,5 +7,7 @@ train_data = load_pd.load(data_root + "train.parquet")
 test_data = load_pd.load(data_root + "dev.parquet")
 
 
-predictor = MultiModalPredictor(label="label").fit(train_data=train_data)
+predictor = MultiModalPredictor(
+    label="label",
+).fit(train_data=train_data)
 predictions = predictor.predict(test_data)
